@@ -1,0 +1,109 @@
+header {
+    height: 50px; /* Ajusta la altura del encabezado */
+}
+
+body {
+    background-image: url('./img/kanye.png');
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    padding: 0 3%;
+    background-attachment: fixed;
+    min-height: 100vh; /* Ajusta la altura mínima del cuerpo para que ocupe toda la pantalla */
+}
+
+
+    .titleRollin{
+        width: 90%;
+        align-items: center;
+        padding: 3px;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(7, 1fr); /* Crea 7 columnas de igual ancho */
+        grid-gap: 5px; /* Espacio entre las celdas */
+        margin-top: 5px;
+        justify-content: center;
+    
+    
+    }
+    .padre{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Crea 7 columnas de igual ancho */
+        grid-template-rows: repeat(2, auto); /* Cuatro filas de altura automática */
+        grid-gap: 5px; /* Espacio entre las celdas */
+        margin-top: 5px;
+        justify-content: center;
+        margin-bottom: 10px; 
+    }
+    .contenedortitleTime{
+        text-align: center;
+        margin-bottom: 80%; 
+    }
+    .titleNirvana{
+        width: 150%;
+        height: 20%;
+        margin-left: 0;
+        justify-content: left;
+        align-items: start;
+    }
+    .PContenedor1{
+    margin-top: 0;
+    width: 100%;
+    }
+    .itemEncabezado{
+        color: white;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .spanEncabezado{
+        color: brown;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 13%;
+    }
+    hr{
+        margin: 0;
+    }
+    .spanYearOn{
+        color: white;
+        background-color: red;
+        padding: 5px 12px;
+        
+    }
+    .Contenedor2{
+        color: white;
+        text-align: right;
+        height: 30%;  
+        
+    }
+    .contenedorFilas{
+        grid-template-rows: repeat(2, auto); /* Cuatro filas de altura automática */
+
+    }
+    .Contenedor1{
+        color: white;
+        text-align: left;
+        width: 30%;
+        display: flex;
+        grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
+        flex-direction: column;
+    
+    }
+    .Contenedor1:last-child {
+        align-self: end; /* Coloca la última columna al final */
+    }
+    .item {
+        margin-bottom: 10px; /* Espacio entre elementos */
+        width: 100%;
+    }
+    .rayaRoja{
+        height: 6%;
+        width: 100px;
+    }
+
+    .codigoBarras{
+        width: 100%;
+        margin-top: auto;
+    }
