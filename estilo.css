@@ -1,15 +1,15 @@
 header {
-    height: 50px; /* Ajusta la altura del encabezado */
+    height: 50px; 
 }
 
 body {
     background-image: url('./img/kanye.png');
-    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el fondo */
-    background-position: center; /* Centra la imagen en el fondo */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
     padding: 0 3%;
     background-attachment: fixed;
-    min-height: 100vh; /* Ajusta la altura mínima del cuerpo para que ocupe toda la pantalla */
+    min-height: 60vh; 
 }
 
 
@@ -21,18 +21,18 @@ body {
 
     .grid-container{
         display: grid;
-        grid-template-columns: repeat(7, 1fr); /* Crea 7 columnas de igual ancho */
-        grid-gap: 5px; /* Espacio entre las celdas */
+        grid-template-columns: repeat(7, 1fr);
+        grid-gap: 5px; 
         margin-top: 5px;
         justify-content: center;
     
     
     }
-    .padre{
+    .father{
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Crea 7 columnas de igual ancho */
-        grid-template-rows: repeat(2, auto); /* Cuatro filas de altura automática */
-        grid-gap: 5px; /* Espacio entre las celdas */
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(2, auto); 
+        grid-gap: 5px; 
         margin-top: 5px;
         justify-content: center;
         margin-bottom: 10px; 
@@ -72,14 +72,9 @@ body {
         padding: 5px 12px;
         
     }
-    .Contenedor2{
-        color: white;
-        text-align: right;
-        height: 30%;  
-        
-    }
+
     .contenedorFilas{
-        grid-template-rows: repeat(2, auto); /* Cuatro filas de altura automática */
+        grid-template-rows: repeat(2, auto); 
 
     }
     .Contenedor1{
@@ -92,10 +87,10 @@ body {
     
     }
     .Contenedor1:last-child {
-        align-self: end; /* Coloca la última columna al final */
+        align-self: end; 
     }
     .item {
-        margin-bottom: 10px; /* Espacio entre elementos */
+        margin-bottom: 1px; /* Espacio entre elementos */
         width: 100%;
     }
     .rayaRoja{
